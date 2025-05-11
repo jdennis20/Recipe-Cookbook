@@ -1,0 +1,23 @@
+# Node modules (should be installed fresh in the container)
+node_modules
+
+# Build output (will be generated during the build process)
+build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (optional, if you don't want to include them in the image)
+.env
+
+# Git-related files
+.git
+.gitignore
+
+# Editor and OS-specific files
+.DS_Store
+.vscode
+.idea
+*.swp
